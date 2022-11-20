@@ -1,0 +1,116 @@
+.form {
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 7px rgb(0 0 0 / 15%);
+    display: flex;
+    width: 980px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    margin-left: -190px;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 550px;
+}
+
+
+
+.form h1 {
+    font-size: 20px;
+}
+
+.titleAddProducts {
+    background-color: none;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.positionImage{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.imagemProduct {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.TextFildAll{
+    
+    border: #f5f5f5;
+    width: 100px;
+    margin: 2px ;
+}
+
+.form .checkboxes {
+    margin: 2rem 0.4rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.schoolLocale {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.categories .subCat{
+    margin-left: 25px;
+}
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.price .subPri{
+    margin-left: 25px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.btn-form{
+
+}
+
+.color{
+    color: #ff8a05;
+}
+
+.theNameProduct{
+
+}

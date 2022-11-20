@@ -1,0 +1,165 @@
+/*------head-----------*/
+.headProfile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0a910 ;
+  padding: 10px 0;
+  color: #fff;
+  width: 60rem;
+  height: 25rem;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.headProfile .containeProfile{
+  width: 60vw;
+  height: 24.8rem;
+  margin: 1px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: list-item;
+  justify-content: space-between;
+}
+
+.headProfile .containeProfile .lineVendor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 55rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
+.headProfile .containeProfile .lineVendor .titleVendor {
+  text-align: center;
+  display: flex;
+  width: 19rem;
+  height: 3rem;
+  margin-top: 18px;
+  font-size: larger;
+  font-family: sans-serif;
+  color: black;
+  margin-left: 50px;
+}
+
+.headProfile .containeProfile .lineVendor .button {
+  background: #fff;
+  color: black;
+  border-style: outset;
+  border-color: #d77400;
+  height: 36px;
+  width: 150px;
+  text-shadow: none;
+  border-radius: 10px;
+  font-size: medium;
+  cursor: pointer;
+}
+.headProfile .containeProfile .lineVendor .button:hover{
+  background: #d77400;
+  color: white;
+  border-style: outset;
+  border-color: #fff;
+}
+
+
+
+/*----Section Profile----*/
+
+.headProfile .containeProfile .profile {
+  display: flex;
+  width: auto;
+  height: 300px;
+  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headProfile .containeProfile .profile .imgProfile {
+  background-color: #d77400;
+  display: flex;
+  width: auto;
+  height: auto;
+  margin-left: 20px;
+  border-radius: 150px;
+}
+
+.headProfile .containeProfile .profile .imgProfilePng{
+  display: flex;
+  width: 280px;
+  height: 280px;
+  background: #fff;
+  margin: 3px;
+  border-color: #f0a910;
+  border-radius: 150px;
+}
+
+.headProfile .containeProfile .profileInformation {
+  background-color: #f0a910;
+  margin-right: 20px;
+  width: 600px;
+  height: 250px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.headProfile .containeProfile .profileInformation .profileInfomartionContainer {
+  background-color: #fff;
+  width: 598px;
+  height: 248px;
+  margin: 0px;
+  border-radius: 10px;
+}
+
+.headProfile .containeProfile .profileInformation .profileInfomartionContainer .nameVendor{
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #000;
+  font-size: 30px;
+  height: 40px;
+}
+
+.headProfile .containeProfile .profileInformation .profileInfomartionContainer .information{
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headProfile .containeProfile .profileInformation .profileInfomartionContainer .information .box {
+  background-color: #fff;
+  margin: 1px 0;
+  padding: 1px 5px;
+  transition: 0.5s;
+  border-radius: 5px;
+  color: black;
+}
+
+.headProfile .containeProfile .profileInformation .profileInfomartionContainer .information .box:hover {
+  background-color: #f0a910;
+  color: #fff;
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+}
+
+/*----Section Profile----*/
+
+
+
+
+
+
+
+/*----Section Products---*/
+
+.produto{
+  padding: 10px;
+  border: 2px solid white;
+  width: 300px;
+}
+
+.produto img{
+  width: 300px;
+}
+
+/*----Section Products---*/

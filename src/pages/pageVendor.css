@@ -1,0 +1,166 @@
+.homeSlide-contentWidth{
+  display: contents;
+}
+
+.containeProfile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.lineVendor {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+
+}
+
+.line {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    margin: 10px 5px 0px 5px;
+    background-color: #d77400;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.line .titleVendor {
+text-align: center;
+  display: flex;
+  width: 19rem;
+  height: 3rem;
+  margin-top: 18px;
+  font-size: larger;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 50px;
+  
+}
+.line .button {
+    background: #f39830;
+    color: black;
+    border-style: outset;
+    border-color: #f0e3d4;
+    height: 36px;
+    width: 150px;
+    margin-right:50px ;
+    text-shadow: none;
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+  }
+  .line .button:hover{
+    background: #d77400;
+    color: white;
+    border-style: outset;
+    border-color: #fff;
+  }
+  
+  .line .button p{
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .containerProfile {
+    display: flex;
+    width: auto;
+    height: 700px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+  .profile {
+    display: flex;
+    width: 800px;
+    /* max-width: 1290px; */
+    height: 600px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -200px;
+  }
+
+  .profile .category{
+    margin-right: 50px ;
+    margin-left: -50px;
+  }
+  .profile .imgProfile{
+    background-color: #d77400;
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 150px;
+  }
+
+  .profile .imgProfile .positionImg {
+    display: flex;
+    height: 280px;
+    background: #fff;
+    margin: 3px;
+    border-color: #f0a910;
+    border-radius: 150px;
+  }
+
+  .profile .imgProfile .positionImg .imgProfilePng {
+    display: flex;
+    width: 280px;
+    height: 280px;
+    background: #fff;
+    margin: 3px;
+    border-color: #f0a910;
+    border-radius: 150px;
+  }
+  
+  .profileInformation {
+    background-color: #f0a910;
+    margin-right: 20px;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  } 
+
+  .profileInformation .profileInfomartionContainer {
+    background-color: #fff;
+    width: 395px;
+    height: 248px;
+    margin: 0px;
+    border-radius: 10px;
+  }
+  
+  .profileInformation .profileInfomartionContainer .nameVendor{
+    margin-top: 10px;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    height: 40px;
+  }
+  .profileInformation .profileInfomartionContainer .information{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .profileInformation .profileInfomartionContainer .information .box {
+    background-color: #fff;
+    margin: 1px 0;
+    padding: 1px 5px;
+    transition: 0.5s;
+    border-radius: 5px;
+    color: black;
+    text-align: end;
+  }
+  .profileInformation .profileInfomartionContainer .information .box:hover {
+    background-color: #f0a910;
+    color: #fff;
+    box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+  }

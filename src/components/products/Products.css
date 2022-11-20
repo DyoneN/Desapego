@@ -1,0 +1,42 @@
+.Item-container {
+  
+  padding: 20px;
+}
+
+.ContainerProducts{
+  display: flex;
+  justify-content: center;
+}
+
+.category {
+  margin-left: -150px;
+  margin-right: 60px;
+  width: 300px;
+  height: 535px;
+}
+
+.catalog {
+
+}
+
+.positionInput {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 200px;
+  background-color: coral;
+  border-radius: 10px;
+}
+
+.searchProducts {
+  margin: 1px;
+  border: 2px solid white;
+  
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+}
+.titleCatalog {
+  font-size: 30px;
+  font-family: sans-serif;
+}
