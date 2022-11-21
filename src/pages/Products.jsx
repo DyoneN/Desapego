@@ -4,7 +4,10 @@ import Categories from "../components/MainPage/Categories"
 import "../components/products/Products.css"
 
 
+
 const Products = ({  addToCart, CartItem, shopItems }) => {
+  
+
   return (
     <>
       <div className="ContainerProducts">
@@ -22,6 +25,3 @@ const Products = ({  addToCart, CartItem, shopItems }) => {
 }
 
 export default Products
-
-
-

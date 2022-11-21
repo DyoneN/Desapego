@@ -43,6 +43,7 @@ const Vendor = () => {
         
           <section className='headProfile'>
             <div className='containeProfile'>
+
               <div className='lineVendor' >
                 <Header/>
                 <div className="containerProfile">
@@ -58,7 +59,6 @@ const Vendor = () => {
                   <div className="profileInformation">
                     <div className="profileInfomartionContainer">
                       <h1 className="nameVendor">Vivian Informatica</h1>
-                      
                       <div className="information">
                         <>
                           <div className='functionsOperaction'>

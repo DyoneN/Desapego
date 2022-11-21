@@ -11,6 +11,7 @@ import PageUser from "./components/pageUser/PageUser"
 import Account from "./components/account/Account"
 import About from "./components/about/About"
 import Products from "./pages/Products"
+import Purchase from "./pages/purchase"
 import AddProduct from "./components/pageVendor/AddProduct/AddProducts"
 import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
@@ -102,6 +103,9 @@ function App() {
             </Route>
           <Route path='/Products' exact>
             <Products />
+          </Route>
+          <Route path='/Purchase' exact>
+            <Purchase />
           </Route>
           <Route path='/AddProduct' exact>
             <AddProduct />
